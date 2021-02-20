@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+/* .table-wrapper{
+  width: 50vw;
+} */
+
+table{
+  width: 100%;
+ 
+}
+
+td{
+  text-align: center;
+}
+
+th {
+  
+  padding:0.8rem;
+  background-color: #1976d2;
+  color: white;
+}
+th > p{
+  margin: 2px;
+} 
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
